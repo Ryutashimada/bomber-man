@@ -1,0 +1,5 @@
+{
+  "name": "Bomberman Game - Ultimate Blast!",
+  "description": "A classic Bomberman-style game built with React. Strategically place bombs to clear blocks, defeat enemies, and find power-ups to become the ultimate blaster!",
+  "requestFramePermissions": []
+}
