@@ -5,6 +5,10 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      // Set base for GitHub Pages: repo name
+      // If your repository is not the root user/org site, Pages will serve at /<repo>/
+      // Replace 'Ryutashimada' below if your repo name differs
+      base: '/Ryutashimada/',
       server: {
         port: 3000,
         host: '0.0.0.0',
